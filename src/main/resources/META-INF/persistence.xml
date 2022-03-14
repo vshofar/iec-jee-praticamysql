@@ -2,7 +2,7 @@
     <persistence-unit name="categoriaPU">
         <jta-data-source>java:jboss/datasources/categoria</jta-data-source>
         <properties>
-            <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <property name="org.hibernate.dialect.MySQLDialect" value="update"/>
         </properties>
     </persistence-unit>
 </persistence>

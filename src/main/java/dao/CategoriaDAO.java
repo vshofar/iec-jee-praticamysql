@@ -10,7 +10,7 @@ import model.Categoria;
 public class CategoriaDAO {
 	
 	public String inserir(Categoria categoria) {		
-		String retorno = "falha";
+		String retorno = "falhas";
 		Conexao conn = new Conexao();
 		try {
 			Statement stmt = (Statement) conn.getConn().createStatement();
