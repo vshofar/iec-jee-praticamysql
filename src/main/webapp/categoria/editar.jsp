@@ -8,12 +8,12 @@
 <body>
     <center>
 		<h1>Editar Categoria</h1>
-		<form action="edit" method="POST">
+		<form action="./edit" method="POST">
             <input type="hidden" name="codigo" value="${categoria.codigo}" />
 			Nome: <input type="text" name="nome" id="nome" value="${categoria.nome}">
 			<input type="submit" value="Editar">
 		</form>
-		<a href="index.jsp"> Voltar </a>
+		<a href="./index.jsp"> Voltar </a>
 	</center>
 </body>
 </html>

@@ -32,7 +32,7 @@ public class EditarCategoria extends HttpServlet {
                 out.print("</html>");
             }else {
                 request.setAttribute("categoria", categoria);
-                RequestDispatcher dispatcher = request.getRequestDispatcher("editar.jsp");
+                RequestDispatcher dispatcher = request.getRequestDispatcher("categoria/editar.jsp");
                 dispatcher.forward(request, response);
             }
 		} catch (Exception ex) {

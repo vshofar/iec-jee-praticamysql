@@ -8,11 +8,11 @@
 <body>
     <center>
 		<h1>Inserir Categoria</h1>
-		<form action="inserir" method="POST">
+		<form action="../inserir" method="POST">
 			Nome: <input type="text" name="nome" id="nome">
 			<input type="submit" value="Inserir">
 		</form>
-		<a href="index.jsp"> Voltar </a>
+		<a href="../index.jsp"> Voltar </a>
 	</center>
 </body>
 </html>
